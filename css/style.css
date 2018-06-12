@@ -258,3 +258,14 @@ h1 {
     text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 
 }
+
+a{
+   font-size: 30;
+    
+    background: #4E9CAF;
+    padding: 0px 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
