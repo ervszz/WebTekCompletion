@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Java Servlets</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+	<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="prelims.html">Web Systems and Technologies</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="../../prelim/prelims.html">Prelims</a></li>
+                            <li>Midterms
+                            <ul>
+									<li><a href="../../midterm/links/CSS.html">CSS</a></li>
+									<li><a href="../../midterm/links/javascript.html">JavaScript</a></li>
+                                </ul>
+                            </li>
+                            <li>Finals
+                            <ul>
+									<li><a href="servlet.html">Servlet</a></li>
+									<li><a href="nodejs.html">NodeJS</a></li>
+                                    <li><a href="php.html">PHP</a></li>
+                                    <li><a href="owasp.html">OWASP</a></li>
+                            </ul>
+                            </li>
+							<li>
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</header>
+                
+        		<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+                        <h1><font size = "50"><center>Java Servlets</center></font></h1>
+                        <br>
+						<header>
+							<p>The Servlet1 was created by Pavni Diwanji while she worked at Sun Microsystems.</p>
+						</header>
+						<span class="image"><img src="images/pavni.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly"></a>
+				</section>
+            
+            <!-- One -->
+              <section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic06.jpg" alt=""/></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>History</h2>
+										<ul>
+                                            <li>The Servlet1 specification was created by Pavni Diwanji while she worked at Sun Microsystems, with version 1.0 finalized in June 1997. Starting with version 2.2, the specification was developed under the Java Community Process. As of June 9, 2015, the current version of the Servlet specification is 3.1.</li>
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<h2>What is a Servlet?</h2>
+									<ul>
+									    <li>Java objects that are intended to play the role of server components in client-server communications.</li>
+                                        <br>
+                                        <ul class="actions">
+							             <li><a href="https://docs.oracle.com/javaee/7/api/javax/servlet/package-summary.html" target="_blank" class="button">Learn more</a></li>
+						              </ul>		
+									</ul>
+								</div>
+								<div class="4u$ 12u$(medium)">
+								<h2>What does it do?</h2>
+								<ul>
+								    <li>handles client request by generating responses to such requests.</li>
+                                    <li>hosted in a 'servlet container' that provides the environment in which the servlet runs, as well as controls the 'servlet lifecycle'.</li>
+								</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+            
+            
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/LifeCycle.jpg" alt="Smiley face" width="1"></span>
+					<div class="content">
+						<header>
+							<h2>Servlet Lifecycle</h2>
+                            <p>A servlet life cycle can be defined as the entire process from its creation till the destruction.</p>
+						</header>
+						<ul class="actions">
+							<li><a href="https://www.tutorialspoint.com/servlets/servlets-life-cycle.htm" target="_blank" class="button">Learn more</a></li>
+						</ul>							
+						<ul class="actions">
+							<li><a href="./images/LifeCycle.jpg" target="_blank" class="button">show image</a> </li>
+							
+						</ul>
+					
+						<ul class="actions">
+							<li><a href="images/LifeCycle.jpg" download class="button">download image</a></li>
+						</ul>	
+											
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+                <!-- Three -->
+                  <section id="three" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic06.jpg" alt=""/></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>HTTP Servlet</h2>
+										<ul>
+                                            <li>Java servlet used to handle HTTP requests and generate HTTP responses.</li>
+                                            <li>It is hosted in a 'Web container', which is a component in a Java 'application server' (e.g., Apache Tomcat, Red Har JBoss/WildFly, Oracle GlassFish, IBM WebSphere, etc.).</li>
+                                            <li>The service() method call is routed to a doXXX() call, depending on the HTTP request method, e.g., doGet(), doPost(), doHead(), doPut(), doDelete(), etc.</li>
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<h2>The doXXX() methods are passed to two arguments</h2>
+									<ul>
+									    <li><b>HTTPServletRequest</b> - object representation of the HTTP request sent by the client and received by the servlet.</li>
+                                        <li><b>HttpServletResponse</b> - object representation of the HTTP reponse generated by the servlet and sent back to the requesting client. Used to set information in the response message (e.g., HTTP response status code, message headers, message payload, etc.).</li>
+						              </ul>		
+									
+								</div>
+								<div class="4u$ 12u$(medium)">
+								<h2>Note</h2>
+								<ul>
+                                    <li>The web container facilitates the conversion to and from the HTTP request/response message to HTTPServletRequest/HTTPServletResponse.</li>
+								</ul>
+								</div>
+							</div>
+						</div>
+                        <center><a href="nodejs.html" class="button">Next</a></center>  
+					</div>
+            </section>
+            	<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+        </div>
+
+	<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
